@@ -1,0 +1,384 @@
+*{
+    font-family: system-ui;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* === BODY ===*/
+
+body{
+    background-color:#F9EBEA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* === HEADER ===*/
+
+header{
+    background-color: #FADBD8;
+}
+
+/* === NAV Y PSEUDO CLASES ===*/
+nav{
+    padding: 20px;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ulinicio .liInicio{
+    display: inline-block;
+    padding: 0px 50px;
+    transition: all .25s;
+}
+
+.aInicio{
+    color: black;
+    
+}
+
+.aInicio:hover{
+    color: #C0392B;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+.liInicio:hover{
+    background-color: #FDEDEC;
+    padding: 4px 8px;
+    border-radius: 8px;
+    transition: all .25s;
+}
+
+/* === IMAGEN LOGO DEL HEADER === */
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    
+}
+
+/* === TITULO DE LA EMPRESA ===*/
+.titulo{
+    font-size: 30px; 
+}
+
+/* CARRUSEL */
+
+.carousel-inner .carousel-item img{
+    height: 600px;
+    width: 100%;
+}
+
+/* DIV CLASEDESTINO*/
+.claseDestino{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+    color:#C0392B;
+    
+}
+
+/* CLASE H3 INDEX */
+
+.claseH3{
+    font-size: 25px; 
+}
+    
+/* CLASE INPUT INDEX */
+.claseInput1{
+    gap: 5px;
+    padding: 5px;
+
+    border: none;
+    border-radius: 8px;
+    background-color: #FADBD8;
+    color: #C0392B;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+/* CLASE DIV MAIN */
+
+
+.claseDivMain{
+    border: 2px solid #FADBD8;
+    border-radius: 8px;
+    gap: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding:15px;
+    margin: 15px;
+}
+
+.buttonDiv{
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #C0392B;
+    color: #FADBD8;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+/*  SOBRE TARJETAS  */
+
+.tarjetas{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.fotoT{
+    height: 200px;
+    width: 200px;
+    padding-left: 30px;
+    margin: 80px;
+}
+
+.fotoNativa{
+    height: 250px;
+    width: 250px;
+}
+
+.clasePago{
+    color: #5D6D7E;
+    border: 2px solid #5D6D7E;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    transition: all .25s;
+    
+}
+
+.clasePago:hover{
+    background-color: #C0392B;
+    color: #F9EBEA;
+    transition: all .25s;
+}
+
+/* CONOCENOS */
+
+.quienesSomos {
+    text-align: justify;
+    padding: 30px;
+    gap: 30px;
+    color: #5D6D7E;
+    
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.primerP{
+    font-size: 20px;
+    font-family: system-ui;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+/* MAIL FORMULARIO */
+
+.mainFormulario{
+    padding: 50px;
+    margin: auto;
+    font-family: system-ui;
+    
+    
+}
+
+.h3Formulario{
+    text-align: center;
+}
+
+/* HORARIOS DE ATENCION */
+
+.horarios{
+    gap: 20px;
+    background-color: #FDEDEC;
+    table-layout: fixed;
+    margin: 50px;
+    
+    
+}
+.claseH1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    color: #5D6D7E;
+    
+}
+.horarios tr{
+    border: solid 1px #C0392B;
+
+}
+
+.claseH5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #5D6D7E;
+}
+
+.claseMapa{
+    margin-bottom: 70px;
+    margin-left: 60vh;
+
+
+}
+
+/* MENDOZA HTML */
+
+.claseMendoza{
+    height: 20%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+main h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.claseServicios{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.claseIconos{
+    height: 100px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.claseExcursiones{
+    padding-left: 20px;
+}
+
+.claseAlojamiento{
+    padding-left: 20px;
+}
+
+.alojamientoImg{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    
+}
+
+.card{
+    margin: 30px;
+}
+
+.claseLegales{
+    padding-left: 20px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+    margin-top: auto;
+    padding-top: 20px;
+    background-color: #FDEDEC;
+    color:black;
+    gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .ulinicio .liInicio{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+
+    .claseDestino{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .claseDivMain{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fotoNativa{
+        height: 350px;
+        width: 350px;
+    }
+
+    .claseMapa{
+        display: none;
+    }
+
+    .h3Formulario{
+        text-align: center;
+    }
+
+    .horarios{
+        margin: 20px;
+    }
+
+    .horarios tr{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    
+    }
+
+    .horarios td{
+        padding-left: 4px;
+        
+    }
+}
